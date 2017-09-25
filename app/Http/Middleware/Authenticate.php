@@ -34,7 +34,7 @@ class Authenticate
      */
     public function handle($request, Closure $next)
     { 
-        return redirect()->guest(route('login.get'));
+        // return redirect()->guest(route('login.get'));
     
         if ($this->auth->guest()) {
             if ($request->ajax()) {

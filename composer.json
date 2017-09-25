@@ -4,10 +4,11 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
-    "require": {
+   "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*",
-        "thomaswelton/laravel-gravatar": "~1.0.*",
+        "laravelcollective/html": "5.1.*",
+        "thomaswelton/laravel-gravatar": "~1.0",
         "rakuten-ws/rws-php-sdk": "1.*"
     },
     "require-dev": {
